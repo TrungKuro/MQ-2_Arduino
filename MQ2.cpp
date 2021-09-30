@@ -46,7 +46,7 @@ void MQ2::begin()
   uint8_t i=count;
   while (i--)
   {
-    _resO += (MQ2::calculateRS()/AIR); // Calculate the average of RO (RO = RS/60)
+    _resO += (MQ2::calculateRS()/AIR); // Calculate the average of RO (RO = RS/9.6)
     delay(100);
   }
   _resO /= (float)count;
