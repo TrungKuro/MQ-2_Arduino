@@ -1,5 +1,5 @@
 /*!
- *  @file MQ2.cpp
+ *  @file MQ2.h
  *
  *  Library Sensor MQ2 use with boards Arduino
  *  Function tests levels of gas in the air
